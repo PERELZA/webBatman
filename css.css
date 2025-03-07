@@ -19,7 +19,6 @@ header {
 }
 
 .header-overlay {
-    background: rgba(170, 84, 84, 0);
     width: 100%;
     padding: 20px;
     color: #ffffff;
@@ -63,7 +62,7 @@ img {
 
 /* Carousel */
 .carousel-inner img {
-    height: 400px;
+    height: 600px;
     object-fit: cover;
     border-radius: 10px;
 }
