@@ -3,8 +3,8 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #000;
+    color: #fff;
 }
 
 /* Estilo del header */
@@ -15,10 +15,8 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    position: relative;
     width: 100%;
     padding: 20px;
-    color: #ffffff;
 }
 
 h1 {
@@ -45,19 +43,38 @@ img {
     margin-top: 10px;
 }
 
-/* Tabla de reparto */
+/* Estilos de la tabla de reparto */
 .table-dark {
     margin-top: 20px;
     text-align: center;
-    background-color: #d67474;
-    color: #ffffff;
-    border: 2px solid #ffffff;
+    background: #fff;
+    color: #000;
+    border: 3px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
+.table-dark thead {
+    background: #000;
+    color: #fff;
+}
+
+.table-dark th, .table-dark td {
+    padding: 15px;
+    border-bottom: 2px solid #ddd;
+}
+
+.table-dark tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* Estilos de imágenes en la tabla */
 .table-dark img {
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
-    width: 10%;
-    margin-top: 10px;
+    object-fit: cover;
+    border: 3px solid #000;
 }
 
 /* Carousel */
