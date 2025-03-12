@@ -17,6 +17,7 @@ header {
     text-align: center;
     width: 100%;
     padding: 20px;
+    color: #fff;
 }
 
 h1 {
@@ -55,7 +56,7 @@ img {
 }
 
 .table-dark thead {
-    background: #000;
+    background: #000000;
     color: #fff;
 }
 
@@ -74,7 +75,7 @@ img {
     height: 80px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid #000;
+    border: 3px solid #fffefe;
 }
 
 /* Carousel */
