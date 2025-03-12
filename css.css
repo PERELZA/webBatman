@@ -49,11 +49,14 @@ img {
 .table-dark {
     margin-top: 20px;
     text-align: center;
+    background-color: #d67474;
+    color: #ffffff;
+    border: 2px solid #ffffff;
 }
 
 .table-dark img {
     border-radius: 50%;
-    width: 30%;
+    width: 40%;
     margin-top: 10px;
 }
 
