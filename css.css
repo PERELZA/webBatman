@@ -16,6 +16,9 @@ header {
     align-items: center;
     text-align: center;
     position: relative;
+    width: 100%;
+    padding: 20px;
+    color: #ffffff;
 }
 
 .header-overlay {
