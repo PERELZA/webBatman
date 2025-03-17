@@ -52,6 +52,7 @@ img {
     background-color: #ffffff; /* Fondo blanco */
     color: #000000; /* Texto negro */
     border: 2px solid #000000; /* Borde negro */
+    width: 30%; /* Ancho de la imagen */
 }
 
 .table-dark th, .table-dark td {
