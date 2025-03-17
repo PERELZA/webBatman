@@ -40,7 +40,7 @@ h2 {
 }
 
 img {
-    width: 10%; /* Ancho completo */
+    width: 100%; /* Ancho completo */
     border-radius: 10px; /* Bordes redondeados */
     margin-top: 10px; /* Margen superior */
 }
@@ -52,12 +52,10 @@ img {
     background-color: #ffffff; /* Fondo blanco */
     color: #000000; /* Texto negro */
     border: 2px solid #000000; /* Borde negro */
-    width: 10%; /* Ancho de la imagen */
 }
 
 .table-dark th, .table-dark td {
     border: 1px solid #000000; /* Bordes de las celdas */
-    width: 10%; /* Ancho de la imagen */
 }
 
 .table-img {
