@@ -60,7 +60,7 @@ img {
 
 .table-img {
     border-radius: 50%; /* Bordes redondeados (círculo) */
-    width: 10%; /* Ancho de la imagen */
+    width: 100%; /* Ancho de la imagen */
     margin-top: 10px; /* Margen superior */
 }
 
