@@ -57,6 +57,7 @@ img {
 
 .table-dark th, .table-dark td {
     border: 1px solid #000000; /* Bordes de las celdas */
+    width: 30%; /* Ancho de la imagen */
 }
 
 .table-img {
