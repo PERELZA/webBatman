@@ -1,99 +1,85 @@
 /* Estilos generales */
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #000;
-    color: #fff;
+    font-family: 'Roboto', sans-serif; /* Fuente de texto */
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el relleno predeterminado */
+    background-color: #000000; /* Fondo negro */
+    color: #ffffff; /* Texto blanco */
 }
 
 /* Estilo del header */
 header {
-    background: url("IMG/header_background.jpeg") no-repeat center center/cover;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    padding: 20px;
-    color: #fff;
+    background: url("IMG/header_background.jpeg") no-repeat center center/cover; /* Imagen de fondo del encabezado */
+    height: 100vh; /* Altura del encabezado: 100% de la altura de la ventana */
+    display: flex; /* Usar flexbox para centrar el contenido */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    text-align: center; /* Centrar el texto */
+    position: relative; /* Posición relativa */
+    width: 100%; /* Ancho completo */
+    padding: 20px; /* Relleno */
+    color: #ffffff; /* Texto blanco */
 }
 
 h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
+    font-size: 2.5rem; /* Tamaño de fuente grande */
+    font-weight: 700; /* Fuente en negrita */
 }
 
 /* Secciones */
 .container {
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
+    max-width: 900px; /* Ancho máximo del contenedor */
+    margin: auto; /* Centrar el contenedor */
+    padding: 20px; /* Relleno */
 }
 
 h2 {
-    color: #ff0000;
-    font-size: 2rem;
-    margin-top: 20px;
+    color: #ff0000; /* Color rojo */
+    font-size: 2rem; /* Tamaño de fuente */
+    margin-top: 20px; /* Margen superior */
 }
 
 img {
-    width: 100%;
-    border-radius: 10px;
-    margin-top: 10px;
+    width: 100%; /* Ancho completo */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-top: 10px; /* Margen superior */
 }
 
-/* Estilos de la tabla de reparto */
+/* Tabla de reparto */
 .table-dark {
-    margin-top: 20px;
-    text-align: center;
-    background: #fff;
-    color: #000;
-    border: 3px solid #000;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.table-dark thead {
-    background: #000000;
-    color: #fff;
+    margin-top: 20px; /* Margen superior */
+    text-align: center; /* Centrar el texto */
+    background-color: #ffffff; /* Fondo blanco */
+    color: #000000; /* Texto negro */
+    border: 2px solid #000000; /* Borde negro */
 }
 
 .table-dark th, .table-dark td {
-    padding: 15px;
-    border-bottom: 2px solid #ddd;
+    border: 1px solid #000000; /* Bordes de las celdas */
 }
 
-.table-dark tbody tr:nth-child(even) {
-    background: #f9f9f9;
-}
-
-/* Estilos de imágenes en la tabla */
 .table-dark img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid #fffefe;
+    border-radius: 50%; /* Bordes redondeados (círculo) */
+    width: 30%; /* Ancho de la imagen */
+    margin-top: 10px; /* Margen superior */
 }
 
 /* Carousel */
 .carousel-inner img {
-    height: 600px;
-    object-fit: cover;
-    border-radius: 10px;
+    height: 600px; /* Altura de la imagen */
+    object-fit: cover; /* Ajustar la imagen */
+    border-radius: 10px; /* Bordes redondeados */
 }
 
 /* Media Queries para pantallas pequeñas */
 @media (max-width: 768px) {
     h1 {
-        font-size: 2rem;
+        font-size: 2rem; /* Tamaño de fuente más pequeño */
     }
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.5rem; /* Tamaño de fuente más pequeño */
     }
     .container {
-        padding: 10px;
+        padding: 10px; /* Relleno más pequeño */
     }
 }
