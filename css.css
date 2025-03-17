@@ -52,17 +52,17 @@ img {
     background-color: #ffffff; /* Fondo blanco */
     color: #000000; /* Texto negro */
     border: 2px solid #000000; /* Borde negro */
-    width: 30%; /* Ancho de la imagen */
+    width: 10%; /* Ancho de la imagen */
 }
 
 .table-dark th, .table-dark td {
     border: 1px solid #000000; /* Bordes de las celdas */
-    width: 30%; /* Ancho de la imagen */
+    width: 10%; /* Ancho de la imagen */
 }
 
 .table-img {
     border-radius: 50%; /* Bordes redondeados (círculo) */
-    width: 30%; /* Ancho de la imagen */
+    width: 10%; /* Ancho de la imagen */
     margin-top: 10px; /* Margen superior */
 }
 
