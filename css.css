@@ -61,6 +61,7 @@ img {
 .table-dark img {
     border-radius: 50%; /* Bordes redondeados (círculo) */
     width: 30%; /* Ancho de la imagen */
+    height: auto; /* Mantiene la proporción */
     margin-top: 10px; /* Margen superior */
 }
 
